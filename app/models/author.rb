@@ -8,6 +8,4 @@ class Author
     @authors = @doc.css("h3 a").collect{|student| student.text}
     @authors
   end
-
-
 end
